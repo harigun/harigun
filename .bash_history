@@ -164,3 +164,395 @@ ll
 cd
 ls -a
 cat .bash_profile
+cd
+echo $JAVA_HOME
+cd /opt/soft
+ll
+cd jdk1.8.0_192/
+ll
+cd..
+cd
+ls -a
+cat .bash_profile
+source .bash_profile
+echo $JAVA_HOME
+java -version
+cd /opt
+ll
+cd soft/
+ll
+cd jdk1.8.0_192/
+ll
+cd jre
+ll
+cd ..
+ll
+cd
+echo $JAVA_HOME
+netstat -tulp
+netstat -ntlpu
+netstat -tulp
+netstat -ntlpu
+javac -version
+cd /opt/soft
+ll
+wget http://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.37/bin/apache-tomcat-8.5.37.zip
+ll
+unzip apache-tomcat-8.5.37.zip
+ll
+cd apache-tomcat-8.5.37
+ll
+cd ..
+ll
+chmod 755 apache-tomcat-8.5.37
+ll
+cd apache-tomcat-8.5.37
+ll
+cd bin
+ll
+cd ../..
+ll
+cdmod 777 -R apache-tomcat-8.5.37
+chmod 777 -R apache-tomcat-8.5.37
+cd apache-tomcat-8.5.37
+ll
+cd ..
+ll
+chmod 755 -R apache-tomcat-8.5.37
+ll
+chmod -R apache-tomcat-8.5.37/bin/*.sh
+ll
+cd apache-tomcat-8.5.37
+ll
+cd bin
+ll
+cd ..
+ll
+cd conf/
+ll
+cat server.xml 
+cat server.xml  |grep -i connector
+cd ..
+ll
+cd bin
+ll
+./shutdown.sh status
+./startup.sh
+hostname -i
+cd
+curl -L 3.82.146.196:8080/
+curl -L localhost:8080/
+hostname -i
+cd /opt/soft
+ll
+cd apache-tomcat-8.5.37
+ll
+cd conf/
+ll
+cat server.xml 
+vi server.xml 
+cd ..
+ll
+cd bin
+ll
+./shutdown.sh
+./startup.sh
+netstat -ntlpu
+ps -elf |grep java
+ps -elf |grep 23519
+ps -elf |greptomcat
+ps -elf |grep tomcat
+ps -ef |grep tomcat
+cd ..
+ll
+cd conf
+ll
+vi tomcat-users.xml
+cd ..
+cd bin
+ll
+./shutdown.sh stop
+./startup.sh start
+cd ..
+ll
+cd cnf
+cd conf
+vi tomcat-users.xml
+cd ..
+ll
+cd bin
+ll
+./shutdown.sh
+./startup.sh
+cd ..
+cd conf
+ll
+vi tomcat-users.xml
+cd ..
+cd bin
+..
+./shutdown.sh
+./startup.sh
+cd bin
+cd ..
+cd conf
+ll
+vi tomcat-users.xml
+cd ..
+ll
+cd ..
+ll
+wget https://updates.jenkins-ci.org/download/war/2.7.3/jenkins.war
+ll
+cp jenkins.war apache-tomcat-8.5.37/webapps/
+cd apache-tomcat-8.5.37
+ll
+cd webapps/
+ll
+cd ..
+ll
+cd bin
+ll
+./shutdown.sh
+./startup.sh
+cd
+cd /root/.jenkins/secrets
+ll
+cat initialAdminPassword
+cd ..
+pwd
+cd
+cd  /opt/soft
+ll
+cd apache-tomcat-8.5.37
+ll
+cd webapps/
+ll
+pwd
+cd ..
+ll
+cd ..
+cd ..
+mkdir jenkins-workspace
+ll
+mv /root/.jenkins /opt/jenkins-workspace/
+ll
+cd jenkins-workspace/
+ll
+cd .jenkins/
+ll
+cd secret
+cd secrets
+ll
+cd
+cd /opt/soft/apache-tomcat-8.5.37
+ll
+cd bin
+ll
+./shutdown.sh
+./startup.sh
+cd
+cd /root/.jenkins/
+ll
+cd secret
+cd secrets
+ll
+cat initialAdminPassword
+ls -a
+cd
+ls -a
+cd /opt/jenkins-workspace/
+pwd
+cd
+ls -a
+vi .bash_profile
+vi .bash_profile
+cd /opt/soft/apache-tomcat-8.5.37/bin
+ll
+./shutdown.sh
+cd
+ls -a
+source .bash_profile
+cd /opt/soft/apache-tomcat-8.5.37/bin
+ll
+./startup.sh
+cd
+cd /root/.jenkins/secrets
+ll
+cat cd
+cd
+cd /opt/jenkins-workspace/secrets
+ll
+cat initialAdminPassword
+cd
+ls -a
+vi .bash_profile
+source .bash_profile
+echo $JENKINS_HOME
+cd /opt/soft/apache-tomcat-8.5.37/bin
+ll
+./shutdown.sh
+./startup.sh
+cd
+cd /opt/jenkins-workspace/.jenkins/ll
+cd /opt/jenkins-workspace/.jenkins/
+ll
+cd
+cd /opt/soft/
+ll
+cd jdk1.8.0_192
+ll
+pwd
+cd ..
+ll
+wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+ll
+tar -zxvf apache-maven-3.6.0-bin.tar.gz
+ll
+cd
+git status
+yum install git
+git status
+git init
+cd /root/.git
+ll
+git status
+cd
+cd /opt/
+ll
+cd soft/
+ll
+wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.zip
+ll
+rm -f apache-maven-3.6.0 apache-maven-3.6.0-bin.tar.gz
+rm -f apache-maven-3.6.0-bin.tar.gz
+ll
+rm -rf apache-maven-3.6.0
+ll
+unzip apache-maven-3.6.0-src.zip
+ll
+chown -R root:root jdk1.8.0_192
+ll
+cd
+git add README.md
+git init
+git add README.md
+git status
+vi pom.xml
+cat pom.xml 
+hostname
+cd /opt/soft
+ll
+cd
+ll
+mkdir src target
+git add 
+git add .
+git commit -m "first" .
+git remote add origin https://github.com/HARISHDARA/harishrepo.git
+git push -u origin master
+cd /opt/soft
+ll
+cd apache-maven-3.6.0
+ll
+cat pom.xml 
+c
+ll
+mvn -version
+mvn --version
+cd ..
+ll
+cd
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+cd apache-maven-3.6.0
+ll
+cd /opt/soft/
+ll
+cd apache-maven-3.6.0
+ll
+cd src/
+ll
+cd site/
+lll
+ll
+cd resources/
+ll
+cd ../../../../
+ll
+cd apache-maven-3.6.0
+ll
+cd maven-settings
+ll
+cd
+cd /opt/soft/
+ll
+cd apache-maven-3.6.0
+ll
+cd apache-maven/
+ll
+cd ..
+cd ..
+ll
+rm -f apache-maven-3.6.0-src.zip
+rm -rf apache-maven-3.6.0
+ll
+wget http://mirrors.wuchna.com/apachemirror/maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.zip
+ll
+unzip apache-maven-3.6.0-src.zip
+ll
+cd apache-maven-3.6.0
+pwd
+cd
+ls -a
+vi .bash_profile
+. ~/.bash_profile
+echo $MAVEN_HOME
+echo $PATH
+mvn --version
+which mvn
+mvn -version
+ls -a
+vi .bash_profile
+source .bash_profile
+echo $M2_HOME
+mnv
+mvn
+mvn -version
+cd /opt/soft/
+ll
+mkdir maven
+mv apache-maven-3.6.0 maven/
+ll
+cd maven
+ll
+cd apache-maven-3.6.0/
+ll
+pwd
+cd
+ls -a
+vi .bash_profile
+source .bash_profile
+mvn
+cd4
+cd
+echo $JAVA_home
+source .bash_profile 
+echo $JAVA_home
+echo $JAVA_HOME
+echo $M2_HOME
+mvn
+ls -a
+cat .bash_profile
+restart
+restart --version
+restart -help
+restart --help
+cd /opt/soft/maven/apache-maven-3.6.0/
+ll
+pwd
+cd
+ls -a
+vi .bash_profile
+vi .bash_profile
+source .bash_profile
+echo $M2_HOME
